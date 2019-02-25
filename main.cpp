@@ -1,29 +1,7 @@
 #include <iostream>
+#include "kalkulator.hpp"
 
 using namespace std;
-
-float dodawanie (float x, float y)
-{
-	float wynik = x+y;
-	return wynik;
-}
-
-
-float odejmowanie (float x, float y)
-{
-	return x-y;
-}
-
-float dzielenie (float x, float y)
-{
-	return x/y;
-}
-
-float mnozenie (float x , float y)
-{
-	return x*y;
-}
-
 
 int main()
 {
@@ -60,6 +38,7 @@ int main()
 	{
 		cout<< "Podales zly symbol !!!!";
 	}
+ 	cout<<endl;
 	return 0;
 }
 
