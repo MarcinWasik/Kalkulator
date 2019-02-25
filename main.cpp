@@ -17,28 +17,7 @@ int main()
 
 	cout<<"Podaj druga liczbe : \n";
 	cin >>liczba2;
-	
-	if (dzialanie == '+')
-	{
-		cout << "Wynik: " << dodawanie(liczba1,liczba2);
-	}
-	else if (dzialanie == '-')
-	{
-		cout<< "Wynik: " << odejmowanie(liczba1,liczba2);
-	}
-	else if (dzialanie == '/')
-	{
-		cout<< "Wynik: " << dzielenie(liczba1, liczba2);
-	}	
-	else if (dzialanie == '*')
-	{
-		cout<< "Wynik: " <<mnozenie(liczba1,liczba2);
-	}
-	else
-	{
-		cout<< "Podales zly symbol !!!!";
-	}
- 	cout<<endl;
+	obliczOrazWyswietlWynik (liczba1, liczba2, dzialanie);
 	return 0;
 }
 
